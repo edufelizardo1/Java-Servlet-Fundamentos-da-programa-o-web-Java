@@ -1,6 +1,6 @@
 <%
 	//scriplet
-	String nomeEmpresa = "Desenvolvedor";
+	String nomeEmpresa = (String)request.getAttribute("empresa");
 	System.out.println(nomeEmpresa);
 %>
 
