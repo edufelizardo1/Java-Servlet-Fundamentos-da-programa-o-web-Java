@@ -12,9 +12,12 @@ public class Banco {
 		empresa1.setNome("Start-Up");
 		Empresa empresa2 = new Empresa();
 		empresa2.setNome("Negócio");
+		Empresa empresa3 = new Empresa();
+		empresa3.setNome("Desenvolvedor Eduardo");
 		
 		empresas.add(empresa1);
 		empresas.add(empresa2);
+		empresas.add(empresa3);
 	}
 	
 	public void adicona(Empresa empresa) {
